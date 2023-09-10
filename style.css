@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(80, 4, 90);
+ 
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    width: 850px;
+    background-color: black;
+    background: rgb(9,9,231);
+    background: linear-gradient(90deg, rgba(9, 9, 231, 0.836) 0%, rgba(247,12,238,1) 47%, rgba(248,12,238,1) 100%);
+    transition: all;
+    transition-duration: 5s;
+   
+}
+.box:hover{
+    height:600px;
+    width: 800px;
+}
+
+.boxes{
+  display: flex;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(5, 9, 71);
+    transition-property: all;
+    transition-duration: 3s;
+}
+.boxes:hover{
+    height: 530px;
+    width: 430px;
+}
+.img{
+    height: 25%;
+    width: 30%;
+    margin-left: 36%;
+    margin-top: 15%;
+    position: relative;
+}
+.name{
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 28%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   left: 25%;
+
+}
+.button:hover{
+    background-color: red;
+
+}
+.span{
+    position: absolute;
+    bottom: 20%;
+    left: 32%;
+    font-size: 20px;
+   color:white;
+}
+
+.pl{
+    padding: 15px;
+}
+
+h5{
+    color: wheat;
+    transition: all;
+    transition-duration: 1s;
+}
+h5:hover{
+    font-size: 28px;
+    background: #2BE3FF;
+    background: -webkit-linear-gradient(to right, #2BE3FF 25%, #FF0DD7 53%, #FFC014 80%);
+    background: -moz-linear-gradient(to right, #2BE3FF 25%, #FF0DD7 53%, #FFC014 80%);
+    background: linear-gradient(to right, #2BE3FF 25%, #FF0DD7 53%, #FFC014 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 466px){
+    .boxes{
+height: 400px;
+    width: 300px;
+}
+.span{
+    position: absolute;
+    bottom: 10%;
+    left: 32%;
+    font-size: 20px;
+   color:white;
+}
+
+
+}
+    
